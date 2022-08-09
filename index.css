@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    background-color: black
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    padding-bottom: 40px;
+    border: 10px solid goldenrod;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+h3 {
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+    margin-bottom: 15px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+@font-face {
+    font-family: digital-7;
+    src: url(digital-7.ttf);
+}
+
+#home-score, #guest-score {
+    width: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 145px;
+    font-family: digital-7;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+    background-color: black
+}
+
+.add-points {
+    display: flex;
+    justify-content: space-between;
+    width: 155px;
+    height: 45px;
+    left: 82px;
+    top: 271px;  
+    margin-top: 18px;
+}
+
+#plus-one-home,
+#plus-two-home,
+#plus-three-home,
+#plus-one-guest,
+#plus-two-guest,
+#plus-three-guest {
+    width: 40px;
+    height: 40px;
+    left: 136px;
+    top: 271px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #9AABD8;
+    border: 1px solid;
+    border-radius: 5px;
+}
