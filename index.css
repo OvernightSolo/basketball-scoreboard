@@ -8,7 +8,7 @@ body {
   justify-content: space-around;
   background-color: #1b244a;
   padding-bottom: 40px;
-  border: 10px solid goldenrod;
+  border: 10px solid rgb(158, 23, 28);
   border-radius: 10px;
   margin: 10px;
 }
