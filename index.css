@@ -5,10 +5,10 @@ body {
 
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: #1b244a;
   padding-bottom: 40px;
-  border: 10px solid rgb(158, 23, 28);
+  border: 10px solid white;
   border-radius: 10px;
   margin: 10px;
 }
