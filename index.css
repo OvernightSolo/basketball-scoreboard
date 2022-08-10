@@ -14,18 +14,14 @@ body {
 }
 
 h3 {
-  width: 149px;
-  height: 36px;
-  left: 85px;
   top: 68px;
   margin-bottom: 15px;
   font-family: "Verdana";
-  font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 36px;
-  text-align: center;
   color: #eeeeee;
+  margin-bottom: 25px;
 }
 
 @font-face {
@@ -81,4 +77,15 @@ h3 {
   color: black;
   border: 1px solid;
   border-radius: 5px;
+}
+
+.home,
+.away {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
 }
